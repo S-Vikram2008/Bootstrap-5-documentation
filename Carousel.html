@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.sr.roku.com/idType/roku/context/global/id/27867a53f5b75cd78e81dfc26eb6c483/rokuFeed/assets/0253d0d1bf38596292d08e4b678d1e9f.jpeg/magic/fit-in/0x720/filters:format(webp)"  class="d-block" style="width: 100%; height: 600px;">
+                <span class="carousel-caption fs-3">Doctor Who</span>
+            </div>
+            <div class="carousel-item">
+                <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/11/locke-and-key-s2-breaking-down-keys.jpg" class="d-block" style="width: 100%;height: 600px;">
+                <span class="carousel-caption fs-3">Locke and Key</span>
+            </div>
+            <div class="carousel-item">
+                <img src="https://assets.change.org/photos/2/du/wm/LjDuwmJCkGeKQwW-1600x900-noPad.jpg?1690730783" class="d-block" style="width: 100%;height: 600px;">
+                <span class="carousel-caption fs-3">Raising Dion</span>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container pt-4">
+        <h3 class="text-center">My Favourite Movie List</h3>
+        <p class="lead text-center">This is an example to show how to create a basic carousel with indicators and controls.</p>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
